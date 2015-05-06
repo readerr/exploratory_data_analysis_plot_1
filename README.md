@@ -15,7 +15,7 @@ If you want to run the code:
 The expected result is the output of the png file.
 
 ## Here are my plots:
-*I have used a transparent background as in the original figures folder and because I wanted to learn how to do that*
+**I have used a transparent background as in the original figures folder and because I wanted to learn how to do that. I am attaching them here so it is easy for you to view them. These are links to the plots I have generated in the repo.**
 
 ### Plot 1
 
