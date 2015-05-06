@@ -2,10 +2,10 @@
 Assignment 1 for Exploratory Data Analysis. The scripts assume that there is a data folder in the working directory containing the dataset.
 
 If you want to run the code:
-1. Download the script you want to run from github
-2. Set the working directory to the directory containg the script
-3. Within that directory create a data folder
-4 Download the dataset from
+  1. Download the script you want to run from github
+  2. Set the working directory to the directory containg the script
+  3. Within that directory create a data folder
+  4. Download the dataset from
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
