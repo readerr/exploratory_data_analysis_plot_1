@@ -10,7 +10,7 @@ data_subset <- dataset[ dataset$DateTime < '2007-02-03 00:00:00', ]
 # plot 2
 png(filename='plot2.png', width = 480, height = 480, bg = NA)
 
-plot( data_subset$Global_active_power ~ data_subset$DateTime,
+plot( data_subset$DateTime, data_subset$Global_active_power,
       type = 'l',
       xlab = '',
       ylab = 'Global Active Power (kilowatts)'

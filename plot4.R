@@ -12,33 +12,33 @@ png( filename = 'plot4.png', width = 480, height = 480, bg = NA )
 par( mfrow = c(2, 2) )
 
 # 1
-plot( data_subset$Global_active_power ~ data_subset$DateTime,
+plot( data_subset$DateTime, data_subset$Global_active_power,
       type = 'l',
       xlab = '',
       ylab = 'Global Active Power'
 )
 # 2
-plot( data_subset$Voltage ~ data_subset$DateTime,
+plot( data_subset$DateTime, data_subset$Voltage,
       type = 'l',
       xlab = 'datetime',
       ylab = 'Voltage'
 )
 
 # 3
-plot( data_subset$Sub_metering_1 ~ data_subset$DateTime, 
+plot( data_subset$DateTime, data_subset$Sub_metering_1,
       ylab = 'Energy sub metering',
       xlab = '',
       type='n' )
 
-lines( data_subset$Sub_metering_1 ~ data_subset$DateTime,
+lines( data_subset$DateTime, data_subset$Sub_metering_1,
       col = 'black',
       type = 'l'
       )
-lines( data_subset$Sub_metering_2 ~ data_subset$DateTime,
+lines( data_subset$DateTime, data_subset$Sub_metering_2,
        col = 'red',
        type = 'l'
        )
-lines( data_subset$Sub_metering_3 ~ data_subset$DateTime,
+lines( data_subset$DateTime, data_subset$Sub_metering_3,
        col = 'blue',
        type = 'l'
        )
@@ -46,7 +46,7 @@ legend( 'topright', lty = c(1,1,1), box.col = NA, col = c('black', 'red', 'blue'
 
 
 # 4
-plot( data_subset$Global_reactive_power ~ data_subset$DateTime,
+plot( data_subset$DateTime, data_subset$Global_reactive_power,
       type = 'l',
       col = 'black',
       ylab = 'Global_reactive_power',

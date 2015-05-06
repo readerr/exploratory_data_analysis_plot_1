@@ -11,16 +11,16 @@ data_subset <- dataset[ dataset$DateTime < '2007-02-03 00:00:00', ]
 png(filename = 'plot3.png', width = 480, height = 480, bg = NA)
 # setup plot 3
 with( data_subset, 
-      plot( Sub_metering_1 ~ DateTime,
+      plot( DateTime, Sub_metering_1,
             xlab = '',
             ylab = 'Energy sub metering',
             type = 'n'  ) 
      )
 
 # add lines
-lines( data_subset$Sub_metering_1 ~ data_subset$DateTime, col='black', type = 'l' )
-lines( data_subset$Sub_metering_2 ~ data_subset$DateTime, col = 'red', type = 'l' )
-lines( data_subset$Sub_metering_3 ~ data_subset$DateTime, col = 'blue', type = 'l' )
+lines( data_subset$DateTime, data_subset$Sub_metering_1, col='black', type = 'l' )
+lines( data_subset$DateTime, data_subset$Sub_metering_2, col = 'red', type = 'l' )
+lines( data_subset$DateTime, data_subset$Sub_metering_3, col = 'blue', type = 'l' )
 
 # add legend
 legend('topright', lty=c(1,1,1), lwd = 1, col = c('black', 'red', 'blue'), legend = c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3') )
