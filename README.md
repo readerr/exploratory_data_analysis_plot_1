@@ -15,7 +15,7 @@ If you want to run the code:
 The expected result is the output of the png file.
 
 ## Here are my plots:
-
+*I have used a transparent background as in the original figures folder and because I wanted to learn how to do that*
 
 ### Plot 1
 
@@ -25,20 +25,17 @@ The expected result is the output of the png file.
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png)
+![plot2.png](plot2.png)
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png)
+![plot3.png](plot3.png)
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png)
-
-
-
+![plot4.png](plot4.png)
 
 
 ## About the data
