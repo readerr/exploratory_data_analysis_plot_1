@@ -50,7 +50,7 @@ plot( data_subset$Global_reactive_power ~ data_subset$DateTime,
       type = 'l',
       col = 'black',
       ylab = 'Global_reactive_power',
-      xlab = 'datatime'
+      xlab = 'datetime'
       )
 
 dev.off()
